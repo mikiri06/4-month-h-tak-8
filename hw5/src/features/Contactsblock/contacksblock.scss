@@ -1,0 +1,116 @@
+.description {
+	z-index: 1;
+	padding: 40px;
+	width: 420px;
+	position: relative;
+	display: flex;
+	margin-left: 24px;
+	flex-direction: column;
+	background: #5b5b5b;
+	height: 350px;
+	.location,
+	.phone {
+		display: flex;
+		align-items: center;
+		height: 22px;
+		.pin {
+			width: 20px;
+			height: 20px;
+			color: #b59571;
+		}
+		p {
+			color: var(--white, #fff);
+
+			/* p/16r */
+			font-family: Circe;
+			font-size: 16px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 22.4px */
+		}
+		gap: 15px;
+	}
+	.phone {
+		margin-top: 20px;
+	}
+	h5 {
+		color: var(--white, #fff);
+
+		/* p / 20b */
+		font-family: Circe;
+		font-size: 20px;
+		margin-top: 25px;
+		font-weight: 700;
+		line-height: 140%; /* 28px */
+	}
+	.days {
+		display: flex;
+		align-items: center;
+		// justify-content: space-between;
+		gap: 15px;
+		margin-top: 15px;
+		h6 {
+			color: var(--white, #fff);
+
+			/* p / 18b */
+			font-family: Circe;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 140%; /* 25.2px */
+		}
+		p {
+			color: var(--white, #fff);
+
+			/* p / 18r */
+			font-family: Circe;
+			font-size: 18px;
+			font-style: normal;
+			font-weight: 400;
+			line-height: 140%; /* 25.2px */
+		}
+	}
+	.btns {
+		display: flex;
+		margin-top: 30px;
+		gap: 20px;
+		.btn {
+			display: inline-flex;
+			padding: 10px 20px;
+			justify-content: center;
+			align-items: center;
+			gap: 10px;
+			// width: 105px;
+			// padding: 10px 20px;
+			// height: 22px;
+			text-wrap: nowrap;
+			color: var(--white, #fff);
+			font-family: Circe;
+			font-size: 16px;
+			font-weight: 700;
+			line-height: 140%; /* 22.4px */
+			background: transparent;
+			border: none;
+		}
+		.brown {
+			background: var(--accent, #b59571);
+			border: 1px solid transparent;
+			&:hover {
+				transition: 0.5s all;
+				background: transparent;
+				color: #b59571;
+				border: 1px solid #b59571;
+			}
+		}
+		.transparent {
+			background: transparent;
+			border: 1px solid var(--white, #fff);
+			&:hover {
+				transition: 0.5s all;
+				background: transparent;
+				color: #b59571;
+				border: 1px solid #b59571;
+			}
+		}
+	}
+}

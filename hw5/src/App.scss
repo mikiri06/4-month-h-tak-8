@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Circe';
+	src: url('./fonts/circe.woff2') format('woff2');
+}
+
+html {
+	scroll-behavior: smooth;
+	height: 100%; // ⬅️ добавлено
+}
+
+body {
+	font-family: 'Circe', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex; // ⬅️ добавлено
+	flex-direction: column; // ⬅️ добавлено
+}
+
+#root {
+	flex: 1; // ⬅️ добавлено
+	display: flex;
+	flex-direction: column;
+}
+
+.container {
+	max-width: 1080px;
+	margin: 0 auto;
+	margin-top: 150px;
+}
+
+.link {
+	text-decoration: none;
+}
+
+header {
+	top: 30px;
+}
+
