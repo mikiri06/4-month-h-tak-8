@@ -31,7 +31,7 @@
 			}
 			&:hover {
 				&::after {
-					width: 110%;
+					width: 100%;
 					height: 3px;
 					transition: 0.3s all;
 					background: var(--accent, #b59571);
@@ -55,6 +55,9 @@
 		margin-top: 60px;
 		display: grid;
 		grid-template-columns: repeat(auto-fit, 300px);
+		a{
+			text-decoration: none;
+		}
 		grid-gap: 24px;
 	}
 }

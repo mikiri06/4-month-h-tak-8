@@ -4,7 +4,7 @@ import img2 from '../../../imgs/menu-second-img.png'
 
 export const Menu = () => {
 	return (
-		<div className='menu-container container'>
+		<div className='menu-con container'>
 			<div className='line-box'>
 				<h3>Меню</h3>
 				<div className='line'></div>

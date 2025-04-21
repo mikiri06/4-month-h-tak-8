@@ -13,6 +13,16 @@ html {
 	scroll-behavior: smooth;
 	height: 100%; // ⬅️ добавлено
 }
+::-webkit-scrollbar {
+	width: 10px;
+	background-color: #f5f5f5;
+}
+::-webkit-scrollbar-thumb {
+	background-color: #b59571dc;
+}
+::-webkit-scrollbar-thumb:hover {
+	background-color: #b59571;
+}
 
 body {
 	font-family: 'Circe', sans-serif;
@@ -43,4 +53,3 @@ body {
 header {
 	top: 30px;
 }
-

@@ -1,7 +1,10 @@
-.menu-container {
+.menu-con {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
+	max-width: 1080px;
+	margin: 0 auto;
+	margin-top: 150px;
 	.line-box {
 		display: flex;
 		flex-direction: row;

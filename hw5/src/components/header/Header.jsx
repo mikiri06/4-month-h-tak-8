@@ -1,7 +1,12 @@
 import React from 'react'
 import './header.scss'
 import { NavLink } from 'react-router-dom'
+import { useState } from 'react'
+import { Modal } from '../modal/Modal'
+
 export const Header = () => {
+	const [open, setOpen] = useState(false)
+
 	return (
 		<header>
 			<div className='container'>
@@ -12,11 +17,10 @@ export const Header = () => {
 					<NavLink to='/menu-page' className='link'>
 						<li>Доставка</li>
 					</NavLink>
-					<button>Бронь столика</button>
+					<button onClick={() => setOpen(true)}>Бронь столика</button>
 				</nav>
 			</div>
+			<Modal open={open} setOpen={setOpen} />
 		</header>
 	)
 }
-
-//  default Header;
