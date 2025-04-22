@@ -1,5 +1,5 @@
 // import React from 'react'
-import { data, useParams } from 'react-router-dom'
+import { useParams } from 'react-router-dom'
 import './cardPage.scss'
 import { useEffect } from 'react'
 import axios from 'axios'
@@ -9,6 +9,8 @@ import { Contacts } from '../../features/Contacts/Contacts'
 export const CardPage = () => {
 	const { id } = useParams()
 	const [dish, setDish] = useState()
+	const [count, setCount] = useState(1)
+
 	useEffect(() => {
 		axios
 			.get(`http://localhost:5000/dishes/${id}`)
@@ -17,6 +19,18 @@ export const CardPage = () => {
 			})
 			.catch(error => console.log(error))
 	}, [id])
+
+	const fetchPostBasket = (dish) => {
+		axios
+			.post('http://localhost:5000/basket', dish)
+			.then(() => {
+				setCount(1)
+				alert('Блюдо добавлено в корзину')
+			})
+			.catch(error => console.log(error))
+	}
+
+	console.log(count);
 
 	return (
 		<div className='card-page'>
@@ -38,8 +52,29 @@ export const CardPage = () => {
 							<div className='category'>/ {dish.category}</div>
 							<p className='servings'>Количество порций:</p>
 							<div className='servings-block'>
-								<input type='number' placeholder='1' min='1' max='10' />
-								<button className='add-to-cart'>В корзину</button>
+								<input
+									type='number'
+									placeholder='1'
+									min='1'
+									max='10'
+									value={count}
+									onChange={e => setCount(e.target.value)}
+								/>
+								<button
+									className='add-to-cart'
+									onClick={() =>
+										fetchPostBasket({
+											name: dish.name,
+											img: dish.img,
+											price: dish.price,
+											count: count,
+										})
+
+										
+									}
+								>
+									В корзину
+								</button>
 							</div>
 							<hr />
 							<h2>Сделать еще вкуснее</h2>

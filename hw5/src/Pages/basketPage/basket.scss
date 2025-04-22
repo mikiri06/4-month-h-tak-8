@@ -1,0 +1,86 @@
+.basket {
+	min-height: 850px;
+	width: 100%;
+	max-width: 1300px;
+	button {
+		display: flex;
+		margin-top: 5px;
+		width: max-content;
+		padding: 5px 10px;
+		justify-content: center;
+		background-color: transparent;
+		border: 1px solid var(--black, #333);
+		color: var(--black, #333);
+		font-family: Circe;
+		font-size: 12px;
+		transition: all 0.3s ease-in-out;
+		&:hover {
+			background-color: var(--black, #333);
+			color: var(--white, #fff);
+		}
+	}
+	.basket-wrapper {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+
+		gap: 20px;
+		margin-bottom: 30px;
+
+		.basket-card {
+			width: 100%;
+			padding: 20px 40px;
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			align-items: center;
+
+			div:first-child {
+				width: 60%;
+				img {
+					width: 100%;
+					height: 150px;
+					object-fit: cover;
+				}
+			}
+			div:last-child {
+				width: 35%;
+				.name {
+					color: var(--black, #333);
+					font-family: Circe;
+					font-size: 16px;
+					font-weight: 600;
+					line-height: 140%; /* 39.2px */
+				}
+				.price {
+					color: var(--black, #333);
+					font-family: Circe;
+					font-size: 16px;
+					font-weight: 500;
+				}
+				.count {
+					color: var(--black, #333);
+					font-family: Circe;
+					font-size: 16px;
+					font-weight: 500;
+				}
+				button {
+					display: flex;
+					margin-top: 5px;
+					width: max-content;
+					padding: 5px 10px;
+					justify-content: center;
+					background-color: transparent;
+					border: 1px solid var(--black, #333);
+					color: var(--black, #333);
+					font-family: Circe;
+					font-size: 12px;
+					transition: all 0.3s ease-in-out;
+					&:hover {
+						background-color: var(--black, #333);
+						color: var(--white, #fff);
+					}
+				}
+			}
+		}
+	}
+}

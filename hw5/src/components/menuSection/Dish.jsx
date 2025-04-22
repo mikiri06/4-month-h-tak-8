@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react'
 import './dish.scss'
 import { Cart } from '../../features'
 import axios from 'axios'
-import { Link } from 'react-router-dom'
 
 export const Dish = () => {
 	const [dishes, setDishes] = useState([])
@@ -44,16 +43,14 @@ export const Dish = () => {
 
 			<div className='wrapper'>
 				{filteredDishes.map(dish => (
-					<Link to={`/card-page/${dish.id}`} key={dish.id}>
-						<Cart
-							key={dish.id}
-							id={dish.id}
-							img={dish.img}
-							name={dish.name}
-							price={dish.price}
-							category={dish.category}
-						/>
-					</Link>
+					<Cart
+						key={dish.id}
+						id={dish.id}
+						img={dish.img}
+						name={dish.name}
+						price={dish.price}
+						category={dish.category}
+					/>
 				))}
 			</div>
 		</div>

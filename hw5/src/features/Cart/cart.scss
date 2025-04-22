@@ -6,23 +6,27 @@
 	height: 400px;
 	background: #fff;
 	border: #33333333 1px solid;
-	img {
+	.link {
 		width: 100%;
-		height: 220px;
-		object-fit: cover;
-	}
-	p {
-		margin-top: 30px;
-		color: var(--black, #333);
-		text-align: center;
+		img {
+			width: 100%;
+			height: 220px;
+			object-fit: cover;
+		}
+		p {
+			margin-top: 30px;
+			color: var(--black, #333);
+			text-align: center;
 
-		/* p / 20b */
-		font-family: Circe;
-		font-size: 20px;
-		font-style: normal;
-		font-weight: 700;
-		line-height: 140%; /* 28px */
+			/* p / 20b */
+			font-family: Circe;
+			font-size: 20px;
+			font-style: normal;
+			font-weight: 700;
+			line-height: 140%; /* 28px */
+		}
 	}
+
 	div {
 		display: flex;
 		margin-top: 50px;

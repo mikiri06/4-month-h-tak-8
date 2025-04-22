@@ -1,82 +1,219 @@
 {
-	"dishes": [
-		{
-			"id": "1",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18JHN3Fgjgr2VnoC4Z_-RrZBdJQonxPxbAp-6SNugCSb3Gdqyej6-L79XGZoIRkFXeT0&usqp=CAU",
-			"name": "Ratatuy",
-			"price": "250",
-			"category": "Ужин"
-			
-		},
-		{
-			"id": "2",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN-gk8G4nfvTGmvS08mUS0lAcfSN5Nzm5jg&s",
-			"name": "Ratatouille",
-			"price": "270",
-			"category": "Ужин"
-		},
-		{
-			"id": "3",
-			"img": "https://www.thewholesomedish.com/wp-content/uploads/2022/06/Easy-Chili-Mac-12-500x500.jpg",
-			"name": "Chili Pasta",
-			"price": "220",
-			"category": "Обед"
-		},
-		{
-			"id": "4",
-			"img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
-			"name": "Butter Chicken",
-			"price": "350",
-			"category": "Ужин"
-		},
-		{
-			"id": "5",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg4YcFTZs9KayESpUHiWgjVR5IRR_NxLtk9A&s",
-			"name": "Satay Noodles",
-			"price": "190",
-			"category": "Обед"
-		},
-		{
-			"id": "6",
-			"img": "https://simple-veganista.com/wp-content/uploads/2020/05/best-vegan-burrito-recipe-6.jpg",
-			"name": "Vegan Burrito",
-			"price": "240",
-			"category": "Завтрак"
-		},
-		{
-			"id": "7",
-			"img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
-			"name": "Veggie Lasagna",
-			"price": "300",
-			"category": "Ужин"
-		},
-		{
-			"id": "8",
-			"img": "https://www.marthastewart.com/thmb/S9xVtnWSHldvxPHKOxEq0bALG-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-338686-spaghetti-carbonara-hero-3x2-69999-560b45d1dd9f4741b717176eff024839.jpeg",
-			"name": "Carbonara",
-			"price": "280",
-			"category": "Обед"
-		},
-		{
-			"id": "9",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7CD94VG6__DanosUofS0qsRMimvKfIrqjPQ&s",
-			"name": "Caesar Salad",
-			"price": "180",
-			"category": "Салат"
-		},
-		{
-			"id": "10",
-			"img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFktDtyVWOm22D5wh7mQ88fhVHhXPQotCvITB8LFvwN-utgZSlzJK__alU34v1w_XjV9s&usqp=CAU",
-			"name": "Chicken Bites",
-			"price": "260",
-			"category": "Закуска"
-		},
-		{
-			"id": "11",
-			"img": "https://www.allrecipes.com/thmb/854efwMYEwilYjKr0FiF4FkwBvM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258.jpg",
-			"name": "Mushroom Risotto",
-			"price": "310",
-			"category": "Ужин"
-		}
-	]
+  "dishes": [
+    {
+      "id": "1",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ18JHN3Fgjgr2VnoC4Z_-RrZBdJQonxPxbAp-6SNugCSb3Gdqyej6-L79XGZoIRkFXeT0&usqp=CAU",
+      "name": "Ratatuy",
+      "price": "250",
+      "category": "Ужин"
+    },
+    {
+      "id": "2",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiN-gk8G4nfvTGmvS08mUS0lAcfSN5Nzm5jg&s",
+      "name": "Ratatouille",
+      "price": "270",
+      "category": "Ужин"
+    },
+    {
+      "id": "3",
+      "img": "https://www.thewholesomedish.com/wp-content/uploads/2022/06/Easy-Chili-Mac-12-500x500.jpg",
+      "name": "Chili Pasta",
+      "price": "220",
+      "category": "Обед"
+    },
+    {
+      "id": "4",
+      "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+      "name": "Butter Chicken",
+      "price": "350",
+      "category": "Ужин"
+    },
+    {
+      "id": "5",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg4YcFTZs9KayESpUHiWgjVR5IRR_NxLtk9A&s",
+      "name": "Satay Noodles",
+      "price": "190",
+      "category": "Обед"
+    },
+    {
+      "id": "6",
+      "img": "https://simple-veganista.com/wp-content/uploads/2020/05/best-vegan-burrito-recipe-6.jpg",
+      "name": "Vegan Burrito",
+      "price": "240",
+      "category": "Завтрак"
+    },
+    {
+      "id": "7",
+      "img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
+      "name": "Veggie Lasagna",
+      "price": "300",
+      "category": "Ужин"
+    },
+    {
+      "id": "8",
+      "img": "https://www.marthastewart.com/thmb/S9xVtnWSHldvxPHKOxEq0bALG-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-338686-spaghetti-carbonara-hero-3x2-69999-560b45d1dd9f4741b717176eff024839.jpeg",
+      "name": "Carbonara",
+      "price": "280",
+      "category": "Обед"
+    },
+    {
+      "id": "9",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS7CD94VG6__DanosUofS0qsRMimvKfIrqjPQ&s",
+      "name": "Caesar Salad",
+      "price": "180",
+      "category": "Салат"
+    },
+    {
+      "id": "10",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFktDtyVWOm22D5wh7mQ88fhVHhXPQotCvITB8LFvwN-utgZSlzJK__alU34v1w_XjV9s&usqp=CAU",
+      "name": "Chicken Bites",
+      "price": "260",
+      "category": "Закуска"
+    },
+    {
+      "id": "11",
+      "img": "https://www.allrecipes.com/thmb/854efwMYEwilYjKr0FiF4FkwBvM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/85389-gourmet-mushroom-risotto-DDMFS-4x3-a8a80a8deb064c6a8f15452b808a0258.jpg",
+      "name": "Mushroom Risotto",
+      "price": "310",
+      "category": "Ужин"
+    }
+  ],
+  "basket": [
+    {
+      "id": "b7fd",
+      "name": "Veggie Lasagna",
+      "img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
+      "price": "300",
+      "count": "7"
+    },
+    {
+      "id": "2ce4",
+      "name": "Butter Chicken",
+      "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+      "price": "350",
+      "count": 8
+    },
+    {
+      "id": "7c78",
+      "name": "Carbonara",
+      "img": "https://www.marthastewart.com/thmb/S9xVtnWSHldvxPHKOxEq0bALG-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-338686-spaghetti-carbonara-hero-3x2-69999-560b45d1dd9f4741b717176eff024839.jpeg",
+      "price": "280",
+      "count": 1
+    },
+    {
+      "id": "bc0b",
+      "name": "Chili Pasta",
+      "img": "https://www.thewholesomedish.com/wp-content/uploads/2022/06/Easy-Chili-Mac-12-500x500.jpg",
+      "price": "220",
+      "count": "1"
+    }
+  ],
+  "order": [
+    {
+      "id": "2c36",
+      "name": [
+        {
+          "id": "b7fd",
+          "name": "Veggie Lasagna",
+          "img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
+          "price": "300",
+          "count": "7"
+        }
+      ]
+    },
+    {
+      "id": "1087",
+      "name": [
+        {
+          "id": "b7fd",
+          "name": "Veggie Lasagna",
+          "img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
+          "price": "300",
+          "count": "7"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": "2"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": "2"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": "2"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": "2"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": "2"
+        },
+        {
+          "id": "7c78",
+          "name": "Carbonara",
+          "img": "https://www.marthastewart.com/thmb/S9xVtnWSHldvxPHKOxEq0bALG-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-338686-spaghetti-carbonara-hero-3x2-69999-560b45d1dd9f4741b717176eff024839.jpeg",
+          "price": "280",
+          "count": 1
+        },
+        {
+          "id": "bc0b",
+          "name": "Chili Pasta",
+          "img": "https://www.thewholesomedish.com/wp-content/uploads/2022/06/Easy-Chili-Mac-12-500x500.jpg",
+          "price": "220",
+          "count": "1"
+        }
+      ]
+    },
+    {
+      "id": "a56a",
+      "name": [
+        {
+          "id": "b7fd",
+          "name": "Veggie Lasagna",
+          "img": "https://wendypolisi.com/wp-content/uploads/2021/02/SQ-veggie-lasagna.jpg",
+          "price": "300",
+          "count": "7"
+        },
+        {
+          "id": "2ce4",
+          "name": "Butter Chicken",
+          "img": "https://www.allrecipes.com/thmb/8L5gq8V7Kyl3qfoDe5vhCU_rvZI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/AR-141169-Easy-Indian-Butter-Chicken-DDMFS-4x3-beauty-588ff54d1e0f4a0788906e851e27d540.jpg",
+          "price": "350",
+          "count": 8
+        },
+        {
+          "id": "7c78",
+          "name": "Carbonara",
+          "img": "https://www.marthastewart.com/thmb/S9xVtnWSHldvxPHKOxEq0bALG-k=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MSL-338686-spaghetti-carbonara-hero-3x2-69999-560b45d1dd9f4741b717176eff024839.jpeg",
+          "price": "280",
+          "count": 1
+        },
+        {
+          "id": "bc0b",
+          "name": "Chili Pasta",
+          "img": "https://www.thewholesomedish.com/wp-content/uploads/2022/06/Easy-Chili-Mac-12-500x500.jpg",
+          "price": "220",
+          "count": "1"
+        }
+      ]
+    }
+  ]
 }
