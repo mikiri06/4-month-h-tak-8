@@ -1,0 +1,28 @@
+.header-container {
+	display: flex;
+	align-self: center;
+	justify-content: space-between;
+	height: 22px;
+	margin: 60px auto;
+	.header-logo {
+		color: #fff;
+		font-family: Poppins;
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 22px;
+	}
+	.header-nav {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 50px;
+		.header-link {
+			text-decoration: none;
+			color: #fff;
+			font-family: Poppins;
+			font-size: 12px;
+			font-weight: 400;
+			letter-spacing: 1.5px;
+		}
+	}
+}

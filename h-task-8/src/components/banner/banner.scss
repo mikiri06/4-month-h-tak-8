@@ -1,0 +1,140 @@
+.banner-container {
+	margin: 60px auto 100px auto;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	.new {
+		margin-left: 15px;
+		width: 329px;
+		height: 36px;
+		border-radius: 200px;
+		background-color: #191919;
+		display: flex;
+		align-items: center;
+		padding: 5px;
+		justify-content: space-between;
+		.text {
+			width: 46px;
+			height: 26px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 200px;
+			background: #25ab75;
+			color: #fff;
+			border: none;
+		}
+		.hidh {
+			color: #fff;
+			font-family: Poppins;
+			font-size: 12px;
+			border: none;
+			background-color: transparent;
+			font-weight: 400;
+			line-height: 18px; /* 150% */
+			letter-spacing: 0.5px;
+			opacity: 0.8;
+			margin-right: 10px;
+		}
+	}
+	.title {
+		margin-top: 31px;
+		color: #fff;
+		font-family: Poppins;
+		font-size: 200px;
+		font-weight: 600;
+		line-height: 170px; /* 85% */
+		letter-spacing: -2px;
+	}
+	.description {
+		width: 600px;
+		color: #fff;
+		font-family: Poppins;
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 29px; /* 181.25% */
+		letter-spacing: 0.5px;
+		margin-top: 42px;
+		margin-left: 15px;
+		opacity: 0.5;
+	}
+	.btns {
+		display: flex;
+		margin-top: 60px;
+		gap: 30px;
+		margin-left: 15px;
+		.green-btn {
+			width: 200px;
+			height: 70px;
+			flex-shrink: 0;
+			border-radius: 10px;
+			background: #25ab75;
+			border: 0px;
+			color: #fff;
+			font-family: Poppins;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 22px; /* 122.222% */
+			letter-spacing: 1px;
+		}
+		.gray-btn {
+			color: #fff;
+			font-family: Poppins;
+			font-size: 18px;
+			font-weight: 600;
+			line-height: 22px; /* 122.222% */
+			letter-spacing: 1px;
+			width: 200px;
+			height: 70px;
+			flex-shrink: 0;
+			border-radius: 10px;
+			background: #191919;
+			border: none;
+		}
+	}
+	.banner-img {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	.right {
+		position: absolute;
+		right: 0;
+		top: 122px;
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		gap: 20px;
+		div {
+			width: 166px;
+			height: 98px;
+			border-radius: 20px;
+			background: #191919;
+			padding: 20px 30px;
+			h3 {
+				font-family: Poppins;
+				font-size: 40px;
+				font-style: normal;
+				font-weight: 600;
+				line-height: 40px; /* 100% */
+				letter-spacing: 1px;
+			}
+			p {
+				color: #fff;
+				font-family: Poppins;
+				margin-top: 5px;
+				font-size: 13px;
+				font-style: normal;
+				font-weight: 400;
+				line-height: 13px; /* 100% */
+				letter-spacing: 1px;
+			}
+		}
+		.time {
+			color: #ffe642;
+		}
+		.est {
+			color: #fb1351;
+		}
+	}
+}

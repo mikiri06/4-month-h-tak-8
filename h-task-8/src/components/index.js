@@ -1,0 +1,5 @@
+export { Head } from './header/Head'
+export { Bann } from './banner/Bann'
+export { Exercises } from './exercises/Exercises'
+export { Workout } from './workout/Workout'
+export { Links } from './links/Links'
